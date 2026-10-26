@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>André Ramos de Oliveira — Desenvolvedor</title>
+<meta name="description" content="André Ramos de Oliveira, desenvolvedor. Construo o ecossistema Aura: Luna IDE, Aster e Orbit. Desktop com Electron, Android nativo e orquestração de modelos de linguagem.">
+<meta name="author" content="André Ramos de Oliveira">
+<meta property="og:title" content="André Ramos de Oliveira — Desenvolvedor">
+<meta property="og:description" content="Construo o ecossistema Aura: IDE com agente, plataforma de voz e assistente com memória própria.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nowardethan.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%E2%97%90%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topbar">
+  <a class="brand" href="#inicio"><span class="dot" aria-hidden="true"></span>André Ramos</a>
+  <nav aria-label="Seções">
+    <a href="#competencias">Competências</a>
+    <a href="#aura">Aura</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <button class="theme" id="theme" type="button" aria-label="Alternar tema claro e escuro">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+  </button>
+</header>
+
+<main id="conteudo">
+
+<section class="hero" id="inicio">
+  <p class="eyebrow">Desenvolvedor · Brasil</p>
+  <h1>Eu construo <em>produtos inteiros</em>, do processo principal até o último pixel.</h1>
+  <p class="lead">
+    Sou o André. Há quatro anos escrevo software de verdade: aplicativos de desktop em Electron,
+    Android nativo em Kotlin, APIs em produção e uma arquitetura própria de identidade artificial
+    persistente. Hoje tudo isso vive dentro do <strong>Aura</strong>, um ecossistema que desenho,
+    programo e publico sozinho.
+  </p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="#aura">Ver o ecossistema</a>
+    <a class="btn" href="https://github.com/NowardEthan" rel="noopener" target="_blank">GitHub</a>
+    <a class="btn" href="mailto:ethanandre2637@gmail.com">Falar comigo</a>
+  </div>
+  <dl class="facts">
+    <div><dt>Repositórios</dt><dd data-count="22">22</dd></div>
+    <div><dt>Linguagem principal</dt><dd>TypeScript</dd></div>
+    <div><dt>Apps publicados</dt><dd data-count="4">4</dd></div>
+    <div><dt>Desde</dt><dd>2022</dd></div>
+  </dl>
+</section>
+
+<section class="band" id="competencias">
+  <h2>O que eu sei fazer</h2>
+  <p class="section-lead">
+    Nada aqui é lista de currículo: cada item abaixo está em código que eu escrevi e que está
+    rodando em algum dos projetos desta página.
+  </p>
+
+  <div class="skills">
+    <article>
+      <h3>Desktop com Electron</h3>
+      <p>
+        Processo principal e renderer separados com IPC tipado e contexto isolado, janela sem moldura
+        com controles próprios, terminal com PTY real, atualização automática e assinatura de binários
+        para o Windows não barrar a instalação.
+      </p>
+      <ul class="tags"><li>Electron</li><li>IPC seguro</li><li>node-pty</li><li>Code signing</li><li>Auto-update</li></ul>
+    </article>
+
+    <article>
+      <h3>Interface em React</h3>
+      <p>
+        Componentização pensada para reuso, painéis redimensionáveis e colapsáveis, editor Monaco
+        integrado com tema próprio, virtualização de listas grandes e animação só em
+        <code>transform</code> e <code>opacity</code>, respeitando quem prefere menos movimento.
+      </p>
+      <ul class="tags"><li>React</li><li>TypeScript</li><li>Vite</li><li>Monaco</li><li>Acessibilidade</li></ul>
+    </article>
+
+    <article>
+      <h3>Orquestração de modelos</h3>
+      <p>
+        Pipeline multi-modelo com memória persistente, política dinâmica e validação de comportamento:
+        um modelo grande dá a voz, modelos menores cuidam das partes especializadas, e o núcleo decide
+        quem responde o quê. Inclui laço de agente com ferramentas e aprovação do usuário.
+      </p>
+      <ul class="tags"><li>LLM</li><li>Agentes</li><li>Memória</li><li>Node</li><li>Docker</li></ul>
+    </article>
+
+    <article>
+      <h3>Android nativo</h3>
+      <p>
+        Aplicativo em Kotlin com Jetpack Compose, publicado com distribuição própria de APK e canal
+        de atualização, além de um app em React Native com Expo consumindo a mesma API.
+      </p>
+      <ul class="tags"><li>Kotlin</li><li>Compose</li><li>React Native</li><li>Expo</li></ul>
+    </article>
+
+    <article>
+      <h3>Backend e infraestrutura</h3>
+      <p>
+        API HTTP em produção para o aplicativo móvel, com chat, transcrição, visão e cobrança,
+        empacotada em Docker e publicada no Railway. Autenticação e regras de acesso no Firebase,
+        hospedagem e distribuição de releases.
+      </p>
+      <ul class="tags"><li>Node</li><li>Docker</li><li>Railway</li><li>Firebase</li><li>CI</li></ul>
+    </article>
+
+    <article>
+      <h3>Comunicação em tempo real</h3>
+      <p>
+        Voz ponto a ponto no desktop, salas e canais, presença e sincronização de estado entre
+        participantes, com o cuidado de privacidade que uma conversa exige.
+      </p>
+      <ul class="tags"><li>WebRTC</li><li>P2P</li><li>Firebase</li><li>Electron</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="band alt" id="aura">
+  <h2>Aura, o ecossistema</h2>
+  <p class="section-lead">
+    Quatro aplicativos que conversam entre si: uma IDE com agente, uma plataforma de comunidades por
+    voz, uma assistente com memória e a loja que instala e atualiza tudo.
+  </p>
+
+  <div class="products">
+    <article class="product">
+      <header>
+        <h3>Luna IDE</h3>
+        <span class="badge">Em desenvolvimento</span>
+      </header>
+      <p>
+        Ambiente de desenvolvimento com a Luna dentro: ela lê o projeto, escreve código, roda comandos
+        e pede aprovação antes de agir. Editor Monaco, terminal com shell real e múltiplas abas,
+        busca com ripgrep, painel de Git com commit escrito pela IA e um cadeado de privacidade que
+        mostra exatamente o que sai da máquina.
+      </p>
+      <ul class="tags"><li>Electron</li><li>React</li><li>TypeScript</li><li>Monaco</li><li>PTY</li></ul>
+      <p class="links">
+        <a href="https://github.com/NowardEthan/luna-ide-releases" rel="noopener" target="_blank">Downloads</a>
+      </p>
+    </article>
+
+    <article class="product">
+      <header>
+        <h3>Aster</h3>
+        <span class="badge">Beta</span>
+      </header>
+      <p>
+        Comunidades por voz para quem cria: salas de alta fidelidade, canais organizados, feed social
+        e um Studio para desenhar insígnias que os membros conquistam de verdade. Tem moderação
+        assistida pela Luna, com fila de revisão e explicação do motivo.
+      </p>
+      <ul class="tags"><li>Electron</li><li>WebRTC</li><li>Firebase</li><li>React</li></ul>
+      <p class="links">
+        <a href="https://github.com/NowardEthan/aster" rel="noopener" target="_blank">Releases</a>
+      </p>
+    </article>
+
+    <article class="product">
+      <header>
+        <h3>Luna Core</h3>
+        <span class="badge">Produção</span>
+      </header>
+      <p>
+        O núcleo do ecossistema: arquitetura de identidade artificial persistente, com Constituição,
+        política dinâmica, validação de comportamento e pipeline multi-modelo. A API móvel que roda
+        em cima dele está no ar, em Docker, servindo chat, transcrição e visão.
+      </p>
+      <ul class="tags"><li>TypeScript</li><li>Node</li><li>Docker</li><li>Railway</li><li>Vitest</li></ul>
+      <p class="links">
+        <a href="https://github.com/NowardEthan/luna-core" rel="noopener" target="_blank">Código</a>
+      </p>
+    </article>
+
+    <article class="product">
+      <header>
+        <h3>Aura Launcher</h3>
+        <span class="badge">Beta</span>
+      </header>
+      <p>
+        A porta de entrada: catálogo assinado, instalação e atualização dos aplicativos, biblioteca do
+        usuário e um Control Center que mostra a saúde do núcleo, as permissões e os dispositivos
+        conectados.
+      </p>
+      <ul class="tags"><li>Electron</li><li>Assinatura</li><li>Atualização</li><li>React</li></ul>
+      <p class="links">
+        <a href="https://github.com/NowardEthan/aura-releases" rel="noopener" target="_blank">Releases</a>
+        <a href="https://aura-ecossistema.web.app" rel="noopener" target="_blank">Site</a>
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="band" id="projetos">
+  <h2>Outros projetos</h2>
+  <p class="section-lead">O que veio antes, e o que nasceu fora do ecossistema.</p>
+
+  <div class="grid" id="repos"></div>
+
+  <p class="more">
+    <a class="btn" href="https://github.com/NowardEthan?tab=repositories" rel="noopener" target="_blank">
+      Ver todos no GitHub
+    </a>
+  </p>
+</section>
+
+<section class="band alt" id="contato">
+  <h2>Vamos conversar</h2>
+  <p class="section-lead">
+    Estou aberto a vagas de desenvolvimento, freelance e parcerias no ecossistema Aura.
+  </p>
+  <div class="contact">
+    <a class="contact-card" href="mailto:ethanandre2637@gmail.com">
+      <span class="k">E-mail</span>
+      <span class="v">ethanandre2637@gmail.com</span>
+    </a>
+    <a class="contact-card" href="https://github.com/NowardEthan" rel="noopener" target="_blank">
+      <span class="k">GitHub</span>
+      <span class="v">@NowardEthan</span>
+    </a>
+    <a class="contact-card" href="https://aura-ecossistema.web.app" rel="noopener" target="_blank">
+      <span class="k">Aura</span>
+      <span class="v">aura-ecossistema.web.app</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© <span id="ano">2026</span> André Ramos de Oliveira · Feito à mão, publicado no GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
