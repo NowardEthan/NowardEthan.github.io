@@ -44,6 +44,12 @@
       { rootMargin: '-40px' },
     )
     alvos.forEach((alvo) => observador.observe(alvo))
+
+    // Rede de segurança: se o observador não rodar (aba em segundo plano, janela
+    // oculta, navegador antigo), o conteúdo aparece do mesmo jeito.
+    window.setTimeout(() => {
+      alvos.forEach((alvo) => alvo.classList.add('in'))
+    }, 1500)
   }
 
   /* ---------- projetos ---------- */
